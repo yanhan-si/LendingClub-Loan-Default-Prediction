@@ -21,6 +21,8 @@ To build a prediction model based on this dataset, one important thing to notice
 
 Light GBM and MLP were trained on this dataset. The hyperparameters for Light GBM were chosen through 5-fold cross validation.
 
+![Image of ROC](https://github.com/yanhan-si/Lending-Club-Loan-Default-Prediction/blob/master/MLP.png)
+
 
 ## Evaluate the Results
 
