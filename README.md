@@ -7,11 +7,11 @@ LendingClub is an American peer-to-peer lending company. It enables borrowers to
 
 Borrowers pay the interest for the loan to settle their financial hardship. Investors make money from the interest. In the meanwhile, the platform charges startup fees from borrowers and service fees from investors.
 
-One main concern of investors is whether borrowers would default on loans or not. If the default does happen, investors would lose their investment. In this project, I used the Light GBM and MLP to prediction the borrowers' loan status and achieved an accuracy of 86%.
+One main concern of investors is whether borrowers would default on loans or not. If the default does happen, investors would lose their investment. In this project, I used the Light GBM and MLP to predict the borrowers' loan status and achieved an accuracy of 85%.
 
 ## Data Understanding
 
-The dataset contains loan data for loans issued through the 2007-2011, including the current loan status (Charged off, Fully Paid, etc.), loan amount, loan grade, loan purpose and latest payment information. 
+The dataset contains loan data for loans issued through 2007 to 2011, including the current loan status (Charged off, Fully Paid, etc.), loan amount, loan grade, loan purpose, and latest payment information. 
 
 ## Prepare Data
 
@@ -20,7 +20,7 @@ To build a prediction model based on this dataset, one important thing to notice
 
 ## Data Modeling
 
-Light GBM and MLP were trained on this dataset. The hyperparameters for Light GBM were chosen through 5-fold cross validation.
+Light GBM and MLP were trained on this dataset. The hyperparameters for Light GBM were chosen through 5-fold cross-validation.
 The feature importance plot gave some of the influential features in the prediction.
 
 ![FI](https://github.com/yanhan-si/Lending-Club-Loan-Default-Prediction/blob/master/Light%20GBM_FI.png)
