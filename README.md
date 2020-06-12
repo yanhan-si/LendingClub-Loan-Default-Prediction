@@ -1,21 +1,21 @@
-# Lending-Club-Loan-Default-Prediction
+# LendingClub Loan Default Prediction
 *Build a loan default prediction model through machine learning and deep learning*
  
 ####  List of python libraries used
-pandas
-numpy
-seaborn
-matplotlib
-lightgbm
-sklearn
+*pandas
+*numpy
+*seaborn
+*matplotlib
+*lightgbm
+*sklearn
 
 #### Files in the repository
 
-The jupyter notebook includes all the code for this project.
+*Jupyter notebook including all the code for this project
 
-The loan.csv dataset
+*loan.csv dataset
 
-Figures from the model evaluation results
+*Figures from the model evaluation results
 
 ## *Overview*
 
