@@ -17,27 +17,36 @@ The dataset contains loan data for loans issued through the 2007-2011, including
 
 To build a prediction model based on this dataset, one important thing to notice is information leakage. As this dataset contains much up-to-date information related to the number of delinquency month and charge off collection fee etc, these features suggest a charge-off the loan. During the prepossessing stage, in addition to deal with missing values and categorical features, columns related to information leakage should also be removed for the model training.
 
+
 ## Data Modeling
 
 Light GBM and MLP were trained on this dataset. The hyperparameters for Light GBM were chosen through 5-fold cross validation.
+The feature importance plot gave some of the influential features in the prediction.
 
-![Image of ROC](https://github.com/yanhan-si/Lending-Club-Loan-Default-Prediction/blob/master/MLP.png)
+![FI](https://github.com/yanhan-si/Lending-Club-Loan-Default-Prediction/blob/master/Light%20GBM_FI.png)
 
 
 ## Evaluate the Results
 
+Our model achieved a high precion of 0.86 on the test set. The F1 score is 0.92.
 
-Table of Contents
+![CM](https://github.com/yanhan-si/Lending-Club-Loan-Default-Prediction/blob/master/mlp_cm.png)
 
-I. Exploratory Data Analysis
 
-II. Feature Engineering
+-------------------------------------------
 
-III. Model Fitting
 
-IV. Model Evaluation
+## ***Table of Contents***
 
-V. Conclusion
+### *I. Exploratory Data Analysis*
+
+### *II. Feature Engineering*
+
+### *III. Model Fitting*
+
+### *IV. Model Evaluation*
+
+### *V. Conclusion*
 
 https://medium.com/@syanhan96/lending-club-loan-default-and-interest-rate-analysis-47d395385876?sk=59ed3e1feff216e272c7f5d4dd51aa66
 
