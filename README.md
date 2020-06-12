@@ -9,6 +9,14 @@ matplotlib
 lightgbm
 sklearn
 
+#### Files in the repository
+
+The jupyter notebook includes all the code for this project.
+
+The loan.csv dataset
+
+Figures from the model evaluation results
+
 ## *Overview*
 
 I. [Business Understanding](#Business-Understanding)<br>
