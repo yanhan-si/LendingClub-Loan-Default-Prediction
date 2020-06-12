@@ -46,6 +46,10 @@ The feature importance plot gave some of the influential features in the predict
 
 Our model achieved a high precion of 0.86 on the test set. The F1 score is 0.92.
 
+When comparing the results from Light GBM with these from MLP, we can see that MLP did a better job on the training set with an 87 % training accuracy but the accuracy dropped by about 2 % on the testing set.
+
+From the confusion matrix, we can see our classifier has high precision but low recall. This means the proportion of borrowers predicted to have good loan behaviors are indeed those who would fully pay the loan is high. But when the true label is charge-off, our classifier is not sensitive enough to notice that. This might be caused by the imbalanced class in the dataset. Actually, in this case, we do care more about precision as investors want to invest in those who are less likely to default.
+
 ![CM](https://github.com/yanhan-si/Lending-Club-Loan-Default-Prediction/blob/master/mlp_cm.png)
 
 
