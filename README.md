@@ -36,17 +36,5 @@ Our model achieved a high precion of 0.86 on the test set. The F1 score is 0.92.
 -------------------------------------------
 
 
-## ***Table of Contents***
-
-### *I. Exploratory Data Analysis*
-
-### *II. Feature Engineering*
-
-### *III. Model Fitting*
-
-### *IV. Model Evaluation*
-
-### *V. Conclusion*
-
 https://medium.com/@syanhan96/lending-club-loan-default-and-interest-rate-analysis-47d395385876?sk=59ed3e1feff216e272c7f5d4dd51aa66
 
