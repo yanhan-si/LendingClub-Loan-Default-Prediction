@@ -1,6 +1,22 @@
 # Lending-Club-Loan-Default-Prediction
 *Build a loan default prediction model through machine learning and deep learning*
  
+####  List of python libraries used
+pandas
+numpy
+seaborn
+matplotlib
+lightgbm
+sklearn
+
+## *Overview*
+
+I. [Business Understanding](#Business-Understanding)<br>
+II. [Data Understanding](#Data-Understanding)<br>
+III. [Prepare Data](#Prepare-Data)<br>
+IV. [Data Modeling](#Data-Modeling)<br>
+V. [Evaluate the Results](#Evaluate-the-Results)<br>
+
 ## Business Understanding 
 
 LendingClub is an American peer-to-peer lending company. It enables borrowers to create unsecured personal loans while investors can choose the loan to invest based on the information provided.
@@ -35,6 +51,9 @@ Our model achieved a high precion of 0.86 on the test set. The F1 score is 0.92.
 
 -------------------------------------------
 
+### Reference:
 
-https://medium.com/@syanhan96/lending-club-loan-default-and-interest-rate-analysis-47d395385876?sk=59ed3e1feff216e272c7f5d4dd51aa66
+1. https://www.kaggle.com/wendykan/lending-club-loan-data
+
+2. https://medium.com/@syanhan96/lending-club-loan-default-and-interest-rate-analysis-47d395385876?sk=59ed3e1feff216e272c7f5d4dd51aa66
 
