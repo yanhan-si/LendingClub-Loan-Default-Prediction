@@ -18,3 +18,6 @@ III. Model Fitting
 IV. Model Evaluation
 
 V. Conclusion
+
+https://medium.com/@syanhan96/lending-club-loan-default-and-interest-rate-analysis-47d395385876?sk=59ed3e1feff216e272c7f5d4dd51aa66
+
